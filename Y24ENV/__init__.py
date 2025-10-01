@@ -1,7 +1,1 @@
-from django.contrib import admin
-from django.urls import path, include
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('calc.urls')),
-]
+# This file is intentionally left blank to mark the directory as a Python package.
